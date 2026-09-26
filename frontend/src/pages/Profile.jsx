@@ -27,7 +27,7 @@ function Profile() {
 
   try {
     const response = await fetch(
-      `http://localhost:5000/api/profile/${user.id}`,
+      `https://campusconnect-backend-67m9.onrender.com/api/profile/`,
       {
         method: "PUT",
         headers: {

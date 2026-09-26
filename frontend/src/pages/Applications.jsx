@@ -13,7 +13,7 @@ function Applications() {
         const userId = user.id || user._id;
 
         const response = await fetch(
-          `http://localhost:5000/api/applications/${userId}`
+          `https://campusconnect-backend-67m9.onrender.com/api/applications/${userId}`
         );
 
         const data = await response.json();
